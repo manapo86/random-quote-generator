@@ -1,23 +1,76 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Proxima Nova', 'Arial', sans-serif;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('background.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
     text-align: center;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #3d3d3d;
+    font-size: 36px;
+}
+
+#quote {
+    font-size: 30px; /* Increased font size for the quotes */
+    margin-bottom: 30px; /* Added margin for better spacing */
 }
 
 button {
-    padding: 10px 20px;
+    padding: 8px 16px; /* Reduced padding */
     font-size: 16px;
     cursor: pointer;
+    background-color: #ff6961;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px; /* Added margin-top to separate from the paragraph */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-message {
+    font-size: 16px;
+    color: #3d3d3d;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+    color: #3d3d3d;
+}
+
+input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666666;
 }
