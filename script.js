@@ -12,6 +12,7 @@ const quotes = [
     "The greatest wealth is to live content with little. - Plato",
     "Knowing yourself is the beginning of all wisdom. - Aristotle",
     "The only true wisdom is in knowing you know nothing. - Socrates",
+    "You are beautiful - AJ"
 ];
 
 // Additional quotes without duplicates
