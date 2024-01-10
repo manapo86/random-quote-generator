@@ -12,25 +12,25 @@ body {
 
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6); /* Slightly transparent white */
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
     color: #3d3d3d;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 #quote {
-    font-size: 30px; /* Increased font size for the quotes */
+    font-size: 36px; /* Increased font size for the quotes */
     margin-bottom: 30px; /* Added margin for better spacing */
 }
 
 button {
-    padding: 8px 16px; /* Reduced padding */
-    font-size: 16px;
+    padding: 10px 20px; /* Reduced padding */
+    font-size: 20px;
     cursor: pointer;
     background-color: #ff6961;
     color: #ffffff;
@@ -53,7 +53,7 @@ input {
 }
 
 .footer {
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 16px;
     color: #666666;
 }
